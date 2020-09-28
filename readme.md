@@ -29,4 +29,34 @@
 
 	* When we have  instantiate a Controller we  have to specify a Model and a View
 
-	
+
+	4> What is PyQt5?
+
+
+	PyQt is a library that lets you use the Qt GUI framework from Python. Qt itself is written in C++. By using it from Python, you can build applications much more quickly while not sacrificing much of the speed of C++.	
+
+
+# Steps 
+
+	1> Install PyQt
+  	
+  	* pip3 install pyqt5
+
+
+  	2> Here’s a step-by-step MVC pattern for a GUI desktop application(Python_Calculator):
+  	
+
+	* The user performs an action or request (event) on the view (GUI).
+
+
+	* The view notifies the controller about the user’s action.
+
+
+	* The controller gets the user’s request and queries the model for a response.
+
+
+	* The model processes the controller query, performs the required operations, and returns an answer or result.
+
+
+	* The controller receives the model’s answer and updates the view accordingly.
+	  The user finally sees the requested result on the view.

@@ -3,6 +3,8 @@ import sys
 
 from PyQt5.QtWidgets import QApplication
 from view import GUI
+from controller import Controller
+Controller(model=model, view=view)
 
 
 # Client code

@@ -84,7 +84,3 @@ class GUI(QMainWindow):
     def getDisplayText(self):
         """Get display's text."""
         return self.display.text()
-
-    def clearDisplay(self):
-        """Clear the display."""
-        self.setDisplayText('')

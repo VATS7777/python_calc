@@ -30,6 +30,4 @@ class Controller:
             if btnText not in {'=', 'C'}:
                 btn.clicked.connect(partial(self._buildExpression, btnText))
 
-        self._view.buttons['='].clicked.connect(self._calculateResult)
-        self._view.display.returnPressed.connect(self._calculateResult)
-        self._view.buttons['C'].clicked.connect(self._view.clearDisplay)
+  
